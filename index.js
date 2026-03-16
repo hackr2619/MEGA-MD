@@ -1,3 +1,5 @@
+import 'dotenv/config';
+
 import fs, { existsSync, mkdirSync, rmSync } from 'fs';
 import path, { dirname } from 'path';
 import chalk from 'chalk';
